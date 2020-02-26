@@ -15,6 +15,8 @@ In this case, the value of the linear relationship are only slighly different:
 ln(Market cap) = 3.56*ln(SF) + 14.09
 ```
 
+![Stock-to-flow model for bitcoin price](images/9-predicted-future.png)
+
 The SF model for BTC price predicts very accurately the logarithm of the BTC price based on the logarithm of the SF value, with an error of less than 20% most of the time. However, this accurate prediction does not translate well to the prediction of the BTC price, which ranges wildly from very low error to values in the range of 100% / 200%.
 
 Additionally, it also encouraging that the work done here has used different sources of data and tools than the ones he used in PlanB's paper.
